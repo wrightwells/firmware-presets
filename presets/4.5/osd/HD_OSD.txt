@@ -1,0 +1,45 @@
+#$ TITLE: WW HD OSD
+#$ FIRMWARE_VERSION: 4.4,4.5
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS:hdzero, HD, HDOSD, OSD,
+#$ AUTHOR: Dickie_Does 
+
+
+#$ DESCRIPTION: WW HD OSD  settings
+#$ DESCRIPTION: Intended to be used with the Caddx HD  cameras using 4.3 aspect ratio.
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: For use with HD Vista vtx/cam combos and the Caddx Walksnail Goggles X
+#$ DESCRIPTION:
+#$ DESCRIPTION: Information
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: 
+#$ DESCRIPTION: You will also need to select "VTX (MSP + Displayport) on the appropriate port in the ports tab.
+
+
+#$ DESCRIPTION: Preview:
+#$ DESCRIPTION: -----------
+#$ DESCRIPTION: <img src="https://github.com/betaflight/firmware-presets/assets/83344205/039e4153-b056-4244-91e1-2b06501326d4" style="width:100%"/>
+#$ DESCRIPTION: 
+#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/477
+
+#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+
+set vcd_video_system = HD
+set osd_displayport_device = MSP
+set osd_rssi_pos = 6501
+set osd_rssi_dbm_pos = 6469
+set osd_tim_1_pos = 7527
+set osd_tim_2_pos = 7559
+set osd_flymode_pos = 6231
+set osd_throttle_pos = 6533
+set osd_craft_name_pos = 6165
+set osd_gps_speed_pos = 7273
+set osd_gps_lon_pos = 7202
+set osd_gps_lat_pos = 7234
+set osd_gps_sats_pos = 7266
+set osd_home_dir_pos = 6329
+set osd_home_dist_pos = 6296
+set osd_altitude_pos = 7298
+set osd_avg_cell_voltage_pos = 6550
